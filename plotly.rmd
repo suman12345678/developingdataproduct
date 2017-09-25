@@ -1,0 +1,15 @@
+---
+title: "plotly"
+author: "suman"
+date: "September 25, 2017"
+output: html_document
+---
+```{r}
+library(plotly)
+suppressPackageStartupMessages(library(plotly))
+plot_ly(data = mtcars, x = ~wt, y = ~mpg, 
+        color = ~as.factor(cyl), size = ~hp,
+        text = ~paste("Weight: ", wt, '<br>MPG:', mpg),
+        type = "scatter", mode = "markers") %>%
+  layout(title = "Car Data")
+```

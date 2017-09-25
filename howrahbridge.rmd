@@ -1,0 +1,14 @@
+---
+title: "Howrah bridge"
+author: "suman"
+date: "September 25, 2017"
+output: html_document
+---
+
+Show howrah bridge, kolkata, India
+```{r}
+library(leaflet)
+my_map <- leaflet() %>% addTiles() 
+my_map <- my_map %>% addMarkers(lat=22.5839,lng=88.3434, popup="Howrah station Kolkata,India")
+my_map
+```

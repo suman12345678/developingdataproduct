@@ -1,0 +1,12 @@
+name: shiny
+title:
+username:
+account: sumandatascience
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 218621
+bundleId: 996840
+url: https://sumandatascience.shinyapps.io/shiny/
+when: 1506371150.98309
+asMultiple: FALSE
+asStatic: FALSE
